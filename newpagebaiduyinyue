@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+body{background-color:#FFFFFF;
+margin:0;}
+hr{margin:10px 0px 0px 0px}
+/*baidusou*/
+.baidusou{background-color:#f7f7f7;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  justify-content: space-between;
+   align-items:center;
+  }
+
+.baidusou>h5{
+  list-style:none;
+  width: 60px;
+}
+.baidusou>.st{width: 60px;
+    height: 23px;
+  border-radius: 25px;
+  text-align:center;
+  list-style:none;
+}
+/*banner*/
+.banner>.list1{display: flex;
+justify-content: space-around;margin:0px 0px 0px 10px}
+.banner>ul{
+  list-style:none;
+margin:0px;padding:0px;}
+.banner>ul>li{
+   list-style:none;
+  width: 40px;
+    height: 30px;  
+}
+.banner>ul>li>a{ text-decoration:none;}
+.banner>ul>li>a:hover{color:blue;}
+.banner>.photo>.photo1{display:inline-block;
+  border-radius: 3px;
+    height: auto;
+  max-width: 100%;
+  min-width: 100%;
+  margin:auto；
+}
+/*tuijian*/
+.tuijian>h2{font-size:18px;
+margin:0px 0px 0px 10px}
+.tuijian>.bt{
+  border:1px solid ;
+  font-size:15px;margin:5px 5px 7px 10px
+}
+.tuijian>.bt.bt1{display:block;background:#FDF3F1;border:1px solid pink;line-height:32px;}
+.tuijian>.bt.bt2{background:white;border:1px solid gray;line-height:32px;}
+.tuijian>.bt.bt3{background:#FDF3F1;border:1px solid pink;line-height:32px;}
+.tuijian>.bt.bt4{background:white;border:1px solid gray;line-height:32px;}
+/*newmusic*/
+.newmusic>.more{display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  justify-content: space-between;
+   align-items:center;}
+.newmusic>.tsong{display:flex;flex-wrap:wrap;flex-direction: row;justify-content: space-around;}
+.newmusic>.tsong>.img1>p{margin:0;}
+.newmusic>.tsong>.img1>.name2{font-size:14px;}
+.newmusic>.tsong>.img1>.name{font-size:13px;color:grey}
+.newmusic>.tsong>.img2>p{margin:0;}
+.newmusic>.tsong>.img2>.name2{font-size:14px;}
+.newmusic>.tsong>.img2>.name{font-size:13px;color:grey}
+.newmusic>.tsong>.img3>p{margin:0;}
+.newmusic>.tsong>.img3>.name2{font-size:14px;}
+.newmusic>.tsong>.img3>.name{font-size:13px;color:grey}
+.newmusic>.tsong>.img4>p{margin:0;}
+.newmusic>.tsong>.img4>.name2{font-size:14px;}
+.newmusic>.tsong>.img4>.name{font-size:13px;color:grey}
+.newmusic>.tsong>.img5>p{margin:0;}
+.newmusic>.tsong>.img5>.name2{font-size:14px;}
+.newmusic>.tsong>.img5>.name{font-size:13px;color:grey}
+.newmusic>.tsong>.img6>p{margin:0;}
+.newmusic>.tsong>.img6>.name2{font-size:14px;}
+.newmusic>.tsong>.img6>.name{font-size:13px;color:grey}
+footer{margin:0px 0px 0px 10px；;height: 40px;  text-align:center;
+;}</style>
+      
+    </head>
+    <body>
+      <hr>
+      <section class="baidusou">
+        <div class="hidden"></div><h5>百度音乐</h5>
+      <input type="search" value="搜歌曲" class="st" > </section>
+      <section class="banner">
+        <ul class="list1">
+        <li><a href="#">推荐</a></li>
+        <li><a href="#">分类</a></li>
+         <li><a href="#">榜单</a></li>
+         <li><a href="#">歌手</a></li>
+         <li><a href="#">歌单</a></li>
+         <li><a href="#">MV</a></li>
+          </ul>
+     <div class="photo"><img src="http://business.cdn.qianqian.com/qianqian/pic/bos_client_de44452893ea17a54ca2e42e3c6334fc.jpg" class="photo1"></div>
+</div>
+      </section>
+          <section class="tuijian">
+            <h2>今日推荐</h2> 
+            <button type="text" class="bt bt1">在爱情的世界里_我不想只做个绅士</button>
+                
+            <button type="" class=" bt bt2">不能错过的ktv金曲</span>
+           <button  type="" class="bt bt3">民谣听着果然穷</button><button type="" class="bt bt4">李建</button>
+                <section class="newmusic">
+            <div class="more"><h3>新歌速递</h3>
+            <span type="link" class="more">更多></span >
+            </div><div class="tsong">
+      <div class="img1"><img src="http://musicdata.baidu.com/data2/pic/fa7502e702f4ffa93b971106c6aea53a/539774598/539774598.jpg@s_0,w_150" alt=""><p class=name2>厉害了我的歌！<br><p class=name>华语群星</p></p></div>
+          <div class="img2"> <img src="http://musicdata.baidu.com/data2/pic/dcf033e79c83375f6d9b3415a82b5ca8/539781016/539781016.jpg@s_0,w_150" > 
+  <P>Heartworms</P><p class=name>The Shins</p></div>
+           <div class="img3"> <img src="http://musicdata.baidu.com/data2/pic/84ed28c0b67a3ccf1f6f564f4d10e902/333313167/333313167.jpg@s_0,w_150" ><p>500000</p><p class=name>Sting</p></div><div class="img4"><img src="http://musicdata.baidu.com/data2/pic/d7f98b165f0f1c75f34182d7a10451db/539783684/539783684.jpg@s_0,w_150" alt=""><p class=name2>面朝大海 春暖花开<br><p class=name>庞龙</p></p></div>
+          <div class="img5"> <img src="http://musicdata.baidu.com/data2/pic/a6d1d4f235f755f41fb75910e898a43c/539777944/539777944.jpg@s_0,w_150" alt="" > 
+  <P class="name2">生来倔强</P><p class="name">南征北战</p></div>
+             <div class="img5"> <img src="http://musicdata.baidu.com/data2/pic/5ad8c037533c26eea1521cd8b591215c/539697630/539697630.jpg@s_0,w_150" alt="" > 
+  <P class="name2">下雨天真</P><p class="name">彭坦/春晓</p></div>
+</div></div>
+        </section>
+<hr>
+<br>
+<footer>意见反馈</footer>
+    </body>
+</html>
